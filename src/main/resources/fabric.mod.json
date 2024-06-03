@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "revertpausemenu",
+  "version": "${version}",
+  "name": "Revert Pause Menu",
+  "description": "The blur on the pause menu offends my eyes and it must be removed.",
+  "authors": ["Gibson Pilconis"],
+  "contact": {
+    "repo": "https://github.com/gibsonpil/RevertPauseMenu"
+  },
+  "license": "BSD-3-Clause",
+  "icon": "assets/revertpausemenu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.gibsonpil.revertpausemenu.RevertPauseMenu"
+    ]
+  },
+  "mixins": [
+    "revertpausemenu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
