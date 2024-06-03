@@ -1,6 +1,5 @@
-## Revert Pause Menu
+# Revert Pause Menu
 
----
 
 This is a Fabric mod for Minecraft 1.20.6 that removes the ugly blur from in-game menus (i.e. the pause menu, 
 and menus nested within it).
@@ -16,5 +15,5 @@ and menus nested within it).
 
 ---
 
-**Q:** Does this work on NeoForge. </br>
+**Q:** Does this work on NeoForge? </br>
 **A:** I might port it over if I ever get bored enough.
